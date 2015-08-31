@@ -15,7 +15,7 @@
         android:textColor="#01579B"
         android:id="@+id/pardos_nano"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:layout_width="155dp"
@@ -23,10 +23,12 @@
         android:text="Spotify Streamer"
         android:background="#0D47A1"
         android:textColor="#E65100"
+        android:elevation="8dp"
         android:id="@+id/media_streamer"
+        android:onClick="buttonClicked"
         android:layout_marginTop="45dp"
         android:layout_below="@+id/pardos_nano"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:layout_width="155dp"
@@ -34,8 +36,10 @@
         android:text="Scores App"
         android:background="#0D47A1"
         android:textColor="#E65100"
+        android:elevation="8dp"
         android:layout_marginTop="5dp"
         android:id="@+id/super_duo1"
+        android:onClick="buttonClicked"
         android:layout_below="@+id/media_streamer"
         android:layout_centerHorizontal="true" />
 
@@ -45,8 +49,10 @@
         android:text="Library App"
         android:background="#0D47A1"
         android:textColor="#E65100"
+        android:elevation="8dp"
         android:layout_marginTop="5dp"
         android:id="@+id/super_duo2"
+        android:onClick="buttonClicked"
         android:layout_below="@+id/super_duo1"
         android:layout_centerHorizontal="true" />
 
@@ -56,8 +62,10 @@
         android:text="Build It Bigger"
         android:background="#0D47A1"
         android:textColor="#E65100"
+        android:elevation="8dp"
         android:layout_marginTop="5dp"
         android:id="@+id/ant_terminator"
+        android:onClick="buttonClicked"
         android:layout_below="@+id/super_duo2"
         android:layout_centerHorizontal="true" />
 
@@ -67,8 +75,10 @@
         android:text="Bacon Reader"
         android:background="#0D47A1"
         android:textColor="#E65100"
+        android:elevation="8dp"
         android:layout_marginTop="5dp"
         android:id="@+id/materialize"
+        android:onClick="buttonClicked"
         android:layout_below="@+id/ant_terminator"
         android:layout_centerHorizontal="true" />
 
@@ -76,10 +86,12 @@
         android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:text="Capstone: My Own App"
-        android:background="#0D47A1"
+        android:background="#455A64"
         android:textColor="#E65100"
+        android:elevation="8dp"
         android:layout_marginTop="5dp"
         android:id="@+id/capstone"
+        android:onClick="buttonClicked"
         android:layout_below="@+id/materialize"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
