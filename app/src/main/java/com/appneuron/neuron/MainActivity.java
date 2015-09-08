@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    //Display our toast message
+    //Display our toast message.
     public void toastMsg(String msg) {
         Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
         toast.show();
